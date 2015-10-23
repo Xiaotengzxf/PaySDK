@@ -15,6 +15,7 @@
 		892C76361BD8A86C0095A7D0 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892C762E1BD8A86C0095A7D0 /* AlipaySDK.framework */; settings = {ASSET_TAGS = (); }; };
 		892C76371BD8A86C0095A7D0 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 892C76311BD8A86C0095A7D0 /* libWeChatSDK.a */; settings = {ASSET_TAGS = (); }; };
 		892C76381BD8A86C0095A7D0 /* PaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892C76351BD8A86C0095A7D0 /* PaySDK.framework */; settings = {ASSET_TAGS = (); }; };
+		892C763A1BD8BC220095A7D0 /* PaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 892C76391BD8BC220095A7D0 /* PaySDK.bundle */; };
 		89B9DD6D1AC6586C000CD6F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9DD6C1AC6586C000CD6F5 /* main.m */; };
 		89B9DD701AC6586C000CD6F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9DD6F1AC6586C000CD6F5 /* AppDelegate.m */; };
 		89B9DD731AC6586C000CD6F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9DD721AC6586C000CD6F5 /* ViewController.m */; };
@@ -24,7 +25,6 @@
 		89D50B751BD0F24F00BC18E6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D50B741BD0F24F00BC18E6 /* libc++.tbd */; };
 		89FD8B511B8F4B550001193F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B9DD741AC6586C000CD6F5 /* Main.storyboard */; };
 		89FD8B521B8F4B550001193F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B9DD791AC6586C000CD6F5 /* LaunchScreen.xib */; };
-		89FD8B561B8F4E6A0001193F /* PaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89FD8B551B8F4E6A0001193F /* PaySDK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +38,7 @@
 		892C76321BD8A86C0095A7D0 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		892C76331BD8A86C0095A7D0 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		892C76351BD8A86C0095A7D0 /* PaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PaySDK.framework; sourceTree = "<group>"; };
+		892C76391BD8BC220095A7D0 /* PaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PaySDK.bundle; path = PaySDK/TTG/PaySDK.bundle; sourceTree = "<group>"; };
 		89B9DD671AC6586C000CD6F5 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B9DD6B1AC6586C000CD6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89B9DD6C1AC6586C000CD6F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		89D50B701BD0F23A00BC18E6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		89D50B721BD0F24600BC18E6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		89D50B741BD0F24F00BC18E6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		89FD8B551B8F4E6A0001193F /* PaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PaySDK.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +146,7 @@
 		89B9DD5E1AC6586C000CD6F5 = {
 			isa = PBXGroup;
 			children = (
+				892C76391BD8BC220095A7D0 /* PaySDK.bundle */,
 				892C762B1BD8A86C0095A7D0 /* PaySDK */,
 				89039F6C1B9045C00047AB3A /* frameworks */,
 				89B9DD691AC6586C000CD6F5 /* Test */,
@@ -181,7 +182,6 @@
 			children = (
 				89B9DD6B1AC6586C000CD6F5 /* Info.plist */,
 				89B9DD6C1AC6586C000CD6F5 /* main.m */,
-				89FD8B551B8F4E6A0001193F /* PaySDK.bundle */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -244,8 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892C763A1BD8BC220095A7D0 /* PaySDK.bundle in Resources */,
 				89FD8B511B8F4B550001193F /* Main.storyboard in Resources */,
-				89FD8B561B8F4E6A0001193F /* PaySDK.bundle in Resources */,
 				89FD8B521B8F4B550001193F /* LaunchScreen.xib in Resources */,
 				89B9DD781AC6586C000CD6F5 /* Images.xcassets in Resources */,
 			);
