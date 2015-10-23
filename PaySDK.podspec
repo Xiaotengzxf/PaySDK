@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
 
   s.name         = "PaySDK"
-  s.version      = “0.0.2”
+  s.version      = "0.0.3"
   s.summary      = "SDK for weixin,alipay and unionpay"
   s.homepage     = "https://github.com/Xiaotengzxf/PaySDK"
   s.license      = "MIT"
   s.author       = { "Xiaotengzxf" => "315082431@qq.com" }
   s.platform     = :ios, "7.0"
-  s.source       = {:git => "https://github.com/Xiaotengzxf/PaySDK.git", :tag => “0.0.2”}
+  s.source       = {:git => "https://github.com/Xiaotengzxf/PaySDK.git", :tag => "0.0.3"}
   s.requires_arc = true
   s.default_subspecs = "Central", "Alipay", "WeiXin"
 
@@ -16,9 +16,10 @@ Pod::Spec.new do |s|
 	central.resource = 'PaySDK/TTG/PaySDK.bundle'
 	central.requires_arc = true
 	central.ios.library = 'c++', 'z'
+	central.frameworks = 'SystemConfiguration','QuartzCore','CoreTelephony','Foundation','CoreGraphics','UIKit'
 	central.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
-	central.dependency = 'PaySDK/Alipay'
-	central.dependency = 'PaySDK/WeiXin'
+	central.dependency 'PaySDK/Alipay'
+	central.dependency 'PaySDK/WeiXin'
   end
 
   s.subspec 'Alipay' do |alipay|
@@ -30,8 +31,9 @@ Pod::Spec.new do |s|
   s.subspec 'WeiXin' do |weixin|
 	weixin.vendored_libraries = 'PaySDK/Channel/WeiXin/libWeChatSDK.a'
 	weixin.source_files = 'PaySDK/Channel/WeiXin/*.h'
-	weixin.ios.library = 'sqlite3'
+	weixin.ios.library = 'sqlite3','c++'
 	#weixin.dependency = 'PaySDK/Central'
   end
+
 
 end
