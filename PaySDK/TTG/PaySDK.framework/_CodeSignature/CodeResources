@@ -6,19 +6,15 @@
 	<dict>
 		<key>Headers/PaySDK.h</key>
 		<data>
-		MxTa299auAUcWYylXhNcw0ECTbE=
+		O3U5TBaaQllJBjYGlAsZFClyfRo=
 		</data>
 		<key>Headers/PayService.h</key>
 		<data>
 		h455RHTXl1ahzvYZQ9IQt8lwFvo=
 		</data>
-		<key>Headers/Product.h</key>
-		<data>
-		+6TnlI5sKg+bgdyfGjZwK0AuEto=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		Mjarlq37aDTbPKUf+n25SA+OUww=
+		5dMGNx/tam+rWIzw84dzcJLgU/M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,15 +81,11 @@
 	<dict>
 		<key>Headers/PaySDK.h</key>
 		<data>
-		MxTa299auAUcWYylXhNcw0ECTbE=
+		O3U5TBaaQllJBjYGlAsZFClyfRo=
 		</data>
 		<key>Headers/PayService.h</key>
 		<data>
 		h455RHTXl1ahzvYZQ9IQt8lwFvo=
-		</data>
-		<key>Headers/Product.h</key>
-		<data>
-		+6TnlI5sKg+bgdyfGjZwK0AuEto=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
