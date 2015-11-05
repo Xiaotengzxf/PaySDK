@@ -22,7 +22,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.lblMsg.text = @"订单总额：100元";
 
     
 }
@@ -43,19 +42,46 @@
 }
 
 /**
+ *  生成订单号
+ *
+ *  @param kNumber 订单号的长度
+ *
+ *  @return 订单号
+ */
+- (NSString *)generateTradeNOWithNumber: (NSInteger)kNumber
+{
+    
+    NSString *sourceStr = @"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    NSMutableString *resultStr = [[NSMutableString alloc] init];
+    srand((unsigned int)time(0));
+    for (NSInteger i = 0; i < kNumber; i++)
+    {
+        unsigned index = rand() % [sourceStr length];
+        NSString *oneStr = [sourceStr substringWithRange:NSMakeRange(index, 1)];
+        [resultStr appendString:oneStr];
+    }
+    return resultStr;
+}
+
+/**
  *  begin pay
  *
  *  @param sender the button
  */
 - (IBAction)doPay:(id)sender {
     
+    ZXFPayRequest *payRequest = [[ZXFPayRequest alloc] init];
+    payRequest.tradeNo = [self generateTradeNOWithNumber:16];
+    payRequest.amount = @(0.01);
+    payRequest.tradeTitle = @"测试";
+    payRequest.tradeMsg = @"测试一分钱";
+    payRequest.mobile = @"15818751003";
+    payRequest.scheme = @"alipay2016";//实现了支付宝支付功能，该参数必须填。
+    
     PayService *pService = [[PayService alloc] init];
-    
-    //暂时由于缺少相关字段，未对payReq进行封装。
-    //［PayService sendPayRequest:payReq];
-    
-    //测试时，暂调用下面这个方法
-    [pService startPay];
+    [pService sendPayRequest:payRequest response:^(NSError *error, ZXFPayResponse *response) {
+        //处理相关回调逻辑
+    }];
     
 }
 

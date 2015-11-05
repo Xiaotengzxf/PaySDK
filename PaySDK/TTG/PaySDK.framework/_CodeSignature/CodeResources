@@ -10,7 +10,15 @@
 		</data>
 		<key>Headers/PayService.h</key>
 		<data>
-		h455RHTXl1ahzvYZQ9IQt8lwFvo=
+		7X9+3zWjtQQF6K8W4R9kK4q7D84=
+		</data>
+		<key>Headers/ZXFPayRequest.h</key>
+		<data>
+		jTN0Wi1fPODmbnl2bIdRPOrGopE=
+		</data>
+		<key>Headers/ZXFPayResponse.h</key>
+		<data>
+		T4uJFot8X4ntU3rmmKdgzdShCR4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -43,6 +51,14 @@
 		<key>PaySDK.bundle/arrowSuccess@3x.png</key>
 		<data>
 		hwSYXqZRWIA1gWJWil1k/i3+QYc=
+		</data>
+		<key>PaySDK.bundle/back@2x.png</key>
+		<data>
+		Fxa0fm9SZBXQTyNsVu7FnBpIu/g=
+		</data>
+		<key>PaySDK.bundle/back@3x.png</key>
+		<data>
+		Fxa0fm9SZBXQTyNsVu7FnBpIu/g=
 		</data>
 		<key>PaySDK.bundle/chinaPay@2x.png</key>
 		<data>
@@ -85,7 +101,15 @@
 		</data>
 		<key>Headers/PayService.h</key>
 		<data>
-		h455RHTXl1ahzvYZQ9IQt8lwFvo=
+		7X9+3zWjtQQF6K8W4R9kK4q7D84=
+		</data>
+		<key>Headers/ZXFPayRequest.h</key>
+		<data>
+		jTN0Wi1fPODmbnl2bIdRPOrGopE=
+		</data>
+		<key>Headers/ZXFPayResponse.h</key>
+		<data>
+		T4uJFot8X4ntU3rmmKdgzdShCR4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -114,6 +138,14 @@
 		<key>PaySDK.bundle/arrowSuccess@3x.png</key>
 		<data>
 		hwSYXqZRWIA1gWJWil1k/i3+QYc=
+		</data>
+		<key>PaySDK.bundle/back@2x.png</key>
+		<data>
+		Fxa0fm9SZBXQTyNsVu7FnBpIu/g=
+		</data>
+		<key>PaySDK.bundle/back@3x.png</key>
+		<data>
+		Fxa0fm9SZBXQTyNsVu7FnBpIu/g=
 		</data>
 		<key>PaySDK.bundle/chinaPay@2x.png</key>
 		<data>

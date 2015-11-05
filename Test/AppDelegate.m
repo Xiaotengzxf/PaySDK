@@ -18,7 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    // [PayService initWithAppID:@"支付平台分配的AppID" andWeChatPay:@“微信AppID”];
+    //配置参数
+    //[PayService initWithAppID:@"分配的APPID" andMerchantId:@"分配的MerchantId" andWeChatPay:@"wx20151028"];
+    
     return YES;
 }
 

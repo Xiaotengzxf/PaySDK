@@ -12,9 +12,9 @@
 		89039F651B9044D60047AB3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89039F641B9044D60047AB3A /* CoreGraphics.framework */; };
 		89039F691B9044E20047AB3A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89039F681B9044E20047AB3A /* QuartzCore.framework */; };
 		89039F6B1B9044E80047AB3A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89039F6A1B9044E80047AB3A /* SystemConfiguration.framework */; };
-		892C76361BD8A86C0095A7D0 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892C762E1BD8A86C0095A7D0 /* AlipaySDK.framework */; settings = {ASSET_TAGS = (); }; };
-		892C76371BD8A86C0095A7D0 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 892C76311BD8A86C0095A7D0 /* libWeChatSDK.a */; settings = {ASSET_TAGS = (); }; };
-		892C76381BD8A86C0095A7D0 /* PaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892C76351BD8A86C0095A7D0 /* PaySDK.framework */; settings = {ASSET_TAGS = (); }; };
+		892C76361BD8A86C0095A7D0 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892C762E1BD8A86C0095A7D0 /* AlipaySDK.framework */; };
+		892C76371BD8A86C0095A7D0 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 892C76311BD8A86C0095A7D0 /* libWeChatSDK.a */; };
+		892C76381BD8A86C0095A7D0 /* PaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892C76351BD8A86C0095A7D0 /* PaySDK.framework */; };
 		892C763A1BD8BC220095A7D0 /* PaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 892C76391BD8BC220095A7D0 /* PaySDK.bundle */; };
 		89B9DD6D1AC6586C000CD6F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9DD6C1AC6586C000CD6F5 /* main.m */; };
 		89B9DD701AC6586C000CD6F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B9DD6F1AC6586C000CD6F5 /* AppDelegate.m */; };
