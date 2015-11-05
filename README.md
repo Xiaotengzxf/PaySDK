@@ -1,6 +1,7 @@
 # PaySDK
-SDK for weixin,alipay and unionpay
+
 1、配置
+
 ① 添加URL Schemes
 在Xcode中，选择你的工程设置项，选中TARGETS，在Info标签栏的 URL Types添加URL Schemes。支付宝填入自定义复杂的字符串（例alipay2015）。如果使用微信，填入所注册的微信应用程序APPID。
 ② iOS 9以上在Info.plist添加以下代码：
@@ -15,7 +16,9 @@ SDK for weixin,alipay and unionpay
     <key>NSAllowsArbitraryLoads</key>
     <true/>
 </dict>
+
 2、使用
+
 ① 初始化
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
@@ -44,5 +47,6 @@ ZXFPayRequest *payRequest = [[ZXFPayRequest alloc] init];
     }];
 
 3、注意事项
+
 ① XXXXXXX does not contain bitcode. You must rebuild it with bitcode enabled (Xcode setting ENABLE_BITCODE), obtain an updated library from the vendor, or disable bitcode for this target.
 请到 Xcode 项目的 Build Settings 页搜索 bitcode，将 Enable Bitcode 设置为 NO。
