@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/PayService.h</key>
 		<data>
-		7X9+3zWjtQQF6K8W4R9kK4q7D84=
+		NqwBjOAKHJu9WIVd7KdWE+gdaPw=
 		</data>
 		<key>Headers/ZXFPayRequest.h</key>
 		<data>
-		jTN0Wi1fPODmbnl2bIdRPOrGopE=
+		54mSVDBAHX7RTnyIPwb/na/Rjrg=
 		</data>
 		<key>Headers/ZXFPayResponse.h</key>
 		<data>
@@ -68,14 +68,6 @@
 		<data>
 		tF5qiYhrdoIqxbxkyNsX+8mD3TA=
 		</data>
-		<key>PaySDK.bundle/password_in@2x.png</key>
-		<data>
-		yCllF7CA0C0+HyJeecihBZUHbRs=
-		</data>
-		<key>PaySDK.bundle/password_in@3x.png</key>
-		<data>
-		B91cr1nws1mzmf7ZFrIqMxKysF4=
-		</data>
 		<key>PaySDK.bundle/wxPay@2x.png</key>
 		<data>
 		a7hCBwS43E/n2nQcyA9bhwc9p68=
@@ -83,14 +75,6 @@
 		<key>PaySDK.bundle/wxPay@3x.png</key>
 		<data>
 		mT6CN7s88MSpqdUhJkC8MhMtwK8=
-		</data>
-		<key>PaySDK.bundle/yuan@2x.png</key>
-		<data>
-		KuwdOTtkOlggDTjgHxSMhGH4MyQ=
-		</data>
-		<key>PaySDK.bundle/yuan@3x.png</key>
-		<data>
-		gAl4biR07jDpPlnEtxL3xc3xGVg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -101,11 +85,11 @@
 		</data>
 		<key>Headers/PayService.h</key>
 		<data>
-		7X9+3zWjtQQF6K8W4R9kK4q7D84=
+		NqwBjOAKHJu9WIVd7KdWE+gdaPw=
 		</data>
 		<key>Headers/ZXFPayRequest.h</key>
 		<data>
-		jTN0Wi1fPODmbnl2bIdRPOrGopE=
+		54mSVDBAHX7RTnyIPwb/na/Rjrg=
 		</data>
 		<key>Headers/ZXFPayResponse.h</key>
 		<data>
@@ -155,14 +139,6 @@
 		<data>
 		tF5qiYhrdoIqxbxkyNsX+8mD3TA=
 		</data>
-		<key>PaySDK.bundle/password_in@2x.png</key>
-		<data>
-		yCllF7CA0C0+HyJeecihBZUHbRs=
-		</data>
-		<key>PaySDK.bundle/password_in@3x.png</key>
-		<data>
-		B91cr1nws1mzmf7ZFrIqMxKysF4=
-		</data>
 		<key>PaySDK.bundle/wxPay@2x.png</key>
 		<data>
 		a7hCBwS43E/n2nQcyA9bhwc9p68=
@@ -170,14 +146,6 @@
 		<key>PaySDK.bundle/wxPay@3x.png</key>
 		<data>
 		mT6CN7s88MSpqdUhJkC8MhMtwK8=
-		</data>
-		<key>PaySDK.bundle/yuan@2x.png</key>
-		<data>
-		KuwdOTtkOlggDTjgHxSMhGH4MyQ=
-		</data>
-		<key>PaySDK.bundle/yuan@3x.png</key>
-		<data>
-		gAl4biR07jDpPlnEtxL3xc3xGVg=
 		</data>
 	</dict>
 	<key>rules</key>

@@ -19,7 +19,6 @@
 @property (nonatomic , strong) NSString *scheme;   //支付宝支付跳转用的scheme
 @property (nonatomic , strong) NSString *extra1;//自留字段为以后新增字段，暂未使用可为nil
 @property (nonatomic , strong) NSString *extra2;//第三方使用，原样返回字符串
-@property (nonatomic ,weak) id delegate;
 
 //验证字段值
 - (BOOL)validateValue;

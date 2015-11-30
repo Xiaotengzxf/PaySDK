@@ -25,7 +25,7 @@ typedef void (^ResponseCallBack)(NSError *error , ZXFPayResponse *response);
  *
  *  @param url 路径
  */
-+ (void)openURL:(NSURL *)url;
++ (BOOL)openURL:(NSURL *)url;
 
 /**
  *  激活支付插件
@@ -36,6 +36,7 @@ typedef void (^ResponseCallBack)(NSError *error , ZXFPayResponse *response);
  *
  */
 + (void)initWithAppID:(NSString *)appId andMerchantId:(NSString *)merchantId andWeChatPay:(NSString *)wxId;
+
 
 @end
 
