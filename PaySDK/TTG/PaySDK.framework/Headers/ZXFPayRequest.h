@@ -17,6 +17,7 @@
 @property (nonatomic , strong) NSNumber *amount;//订单金额
 @property (nonatomic , strong) NSString *tradeNo;//订单号
 @property (nonatomic , strong) NSString *scheme;   //支付宝支付跳转用的scheme
+@property (nonatomic , strong) NSString *bgRetUrl; //回调地址
 @property (nonatomic , strong) NSString *extra1;//自留字段为以后新增字段，暂未使用可为nil
 @property (nonatomic , strong) NSString *extra2;//第三方使用，原样返回字符串
 
