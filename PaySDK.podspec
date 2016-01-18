@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
 
   s.name         = "PaySDK"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "SDK for weixin,alipay and unionpay"
   s.homepage     = "https://github.com/Xiaotengzxf/PaySDK"
   s.license      = "MIT"
   s.author       = { "Xiaotengzxf" => "315082431@qq.com" }
   s.platform     = :ios, "7.0"
-  s.source       = {:git => "https://github.com/Xiaotengzxf/PaySDK.git", :tag => "0.0.7"}
+  s.source       = {:git => "https://github.com/Xiaotengzxf/PaySDK.git", :tag => "0.0.8"}
   s.requires_arc = true
  # s.default_subspecs = "Central", "Alipay", "WeiXin"
   s.vendored_frameworks = 'PaySDK/TTG/PaySDK.framework','PaySDK/Channel/Alipay/AlipaySDK.framework'
